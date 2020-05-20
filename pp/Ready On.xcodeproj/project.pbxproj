@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F3782E421EACC6B0081BA77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F3782E321EACC6B0081BA77 /* GoogleService-Info.plist */; };
+		0F51543624759B6200A6691F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F51543524759B6100A6691F /* GoogleService-Info.plist */; };
 		0F519A4321E0E078006B4601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F519A4221E0E078006B4601 /* AppDelegate.swift */; };
 		0F519A4521E0E078006B4601 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F519A4421E0E078006B4601 /* ViewController.swift */; };
 		0F519A4821E0E078006B4601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F519A4621E0E078006B4601 /* Main.storyboard */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F3782E321EACC6B0081BA77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F51543524759B6100A6691F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0F519A3F21E0E078006B4601 /* Ready On.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ready On.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F519A4221E0E078006B4601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F519A4421E0E078006B4601 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,8 +68,8 @@
 				0F519A4621E0E078006B4601 /* Main.storyboard */,
 				0F519A4921E0E07B006B4601 /* Assets.xcassets */,
 				0F519A4B21E0E07B006B4601 /* LaunchScreen.storyboard */,
+				0F51543524759B6100A6691F /* GoogleService-Info.plist */,
 				0F519A4E21E0E07B006B4601 /* Info.plist */,
-				0F3782E321EACC6B0081BA77 /* GoogleService-Info.plist */,
 			);
 			path = pp;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F519A4D21E0E07B006B4601 /* LaunchScreen.storyboard in Resources */,
-				0F3782E421EACC6B0081BA77 /* GoogleService-Info.plist in Resources */,
+				0F51543624759B6200A6691F /* GoogleService-Info.plist in Resources */,
 				0F519A4A21E0E07B006B4601 /* Assets.xcassets in Resources */,
 				0F519A4821E0E078006B4601 /* Main.storyboard in Resources */,
 			);
@@ -209,26 +209,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Ready On/Pods-Ready On-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Ready On/Pods-Ready On-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Ready On/Pods-Ready On-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
